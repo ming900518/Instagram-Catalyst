@@ -307,18 +307,19 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Instagram Catalyst/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchang.instagramcatalyst;
 				PRODUCT_NAME = "Instagram Catalyst";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "2,6";
 			};
 			name = Debug;
 		};
@@ -333,17 +334,18 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Instagram Catalyst/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchang.instagramcatalyst;
 				PRODUCT_NAME = "Instagram Catalyst";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "2,6";
 			};
 			name = Release;
 		};
